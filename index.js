@@ -17,8 +17,8 @@ app.get('/api/getPakej', (req,res) => {
         'pax': '4',
         'image': 'https://cdn.star2.com/wp-content/uploads/2019/09/273905.jpeg',
         'theme': 'honeymoon,school,vacation',
-        'dateavailablestart': '31/01/2020',
-        'dateavailableend': '01/05/2020',
+        'dateavailablestart': '31-01-2020',
+        'dateavailableend': '01-05-2020',
       }, {
         'id': 2,
         'user': 'Scuba Dive Team',
@@ -28,8 +28,8 @@ app.get('/api/getPakej', (req,res) => {
         'pax': '10',
         'image': 'https://www.holidaygogogo.com/wp-content/uploads/2013/05/diving-in-tioman.jpg',
         'theme': 'program',
-        'dateavailablestart': '27/03/2020',
-        'dateavailableend': '30/05/2020',
+        'dateavailablestart': '27-03-2020',
+        'dateavailableend': '30-05-2020',
       }, {
         'id': 3,
         'user': 'Sarawaqian',
@@ -39,8 +39,8 @@ app.get('/api/getPakej', (req,res) => {
         'pax': '3',
         'image': 'https://www.theborneopost.com/newsimages/2019/04/SK04.jpg',
         'theme': 'school,honeymoon,vacation,program',
-        'dateavailablestart': '01/01/2020',
-        'dateavailableend': '01/12/2020',
+        'dateavailablestart': '01-01-2020',
+        'dateavailableend': '01-12-2020',
       },
     ]
     res.json(package);
